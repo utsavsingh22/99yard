@@ -1,0 +1,1657 @@
+
+<!doctype html>
+<html lang="en-US">
+	<head>
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+		<base href="http://bespoketechnologies.co.in/AMN/my99yard/">
+		<title>my99yard</title>
+        
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all"/>
+		<link rel="stylesheet" href="assets/css/bootstraptable.min.css" type="text/css" media="all"/>
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all"/>
+		<link rel="stylesheet" href="assets/css/ionicons.min.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="assets/css/icon-moon.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
+		<link rel="stylesheet" href="assets/css/animate.css" />
+		<link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css" media="all"/>
+		<link rel="stylesheet" href="assets/css/owl.theme.css" type="text/css" media="all"/>
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" media="all"/>
+		<link rel="stylesheet" href="assets/css/custom.css" type="text/css" media="all"/>
+		<link rel="stylesheet" href="assets/css/jquery-ui.css">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i%7CExo:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery-migrate.min.js"></script>
+		<script src="assets/js/bootstrap.min.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+		
+		
+		<script>
+		function customMessage(type,message) {
+	
+	if(type == 'success') {
+		
+		var alert_class = 'alert-success';
+		
+	} else if(type == 'info') {
+		
+		var alert_class = 'alert-info';
+		
+	} else if(type == 'warning') {
+		
+		var alert_class = 'alert-warning';
+		
+	} else if(type == 'error') {
+		
+		var alert_class = 'alert-danger';
+		
+	} else {
+		
+		var alert_class = '';
+	}
+	
+	var return_alert = '<div class="alert customalert '+alert_class+'">'+message+'</div>';
+  
+	return return_alert;
+}
+
+function isJson(str) {
+    try {
+        JSON.parse(str);
+    } catch (e) {
+        return false;
+    }
+    return true;
+}
+		</script>
+		
+	</head>
+	<body>
+	
+		<div class="site">
+		
+		<header class="header header-fullwidth header-desktop">
+				<div class="navbar-wrapper">
+					<div class="navbar navbar-default">
+						<div class="container-fluid">
+							<div class="navbar-content">
+							<span style="font-size: 40px; color: #1b8ef9; cursor:pointer; float:right; margin-top: 20px;" onclick="openNav()">&#9776;</span>
+								<div class="navbar-header pull-left">
+									<button data-target=".nav-collapse" class="btn-navbar icon-menu" type="button">
+										<i class="fa fa-bars"></i>
+									</button>
+									
+									<a href="http://bespoketechnologies.co.in/AMN/my99yard/" class="navbar-brand" title="Real Estate">
+										<img class="" src="C:\Vs Code\my project\Bespoke\logo.png" alt="Real Estate" />
+									</a>
+								</div> 
+								<div class="pull-right navbar-meta meta-phone">
+									<div class="meta-content">
+										<i class="fa fa-mobile fa-spin fa-3x fa-fw"></i>
+										<div class="meta-desc">
+											CALL US NOW<br>
+											<span><a href="tel:9876543210">(+91) 80911-27000</a></span>
+										</div>
+									</div>
+								</div>
+								
+								<div id="mySidenav" class="sidenav">
+								  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+								 <ul class="nav-side-collapse navbar-side-nav">
+									<li><a href="http://bespoketechnologies.co.in/AMN/my99yard/">Home</a></li>
+										<li><a href="post-requirement">Post Your Requirement</a></li>
+										<li><a href="home-loan">Home Loan & Other</a></li>
+										<li><a href="home-insurance">Home Insurance</a></li>
+										 <li><a href="blog">Blog</a></li>
+										 <li><a href="why-my99yard">Why My99yard</a></li>
+										 <li><a href="contact-us">Contact Us</a></li>
+									</ul>
+								</div>
+								<script>
+									function openNav() {
+										  document.getElementById("mySidenav").style.width = "250px";
+									
+										}
+
+										function closeNav() {
+										  document.getElementById("mySidenav").style.width = "0";
+										}
+								</script>
+								
+								<div class="pull-right navbar-meta meta-property">
+								<ul>
+										<li style="margin-top: 5px;"><a style="font-size:14px;font-weight: 600;" href="post-requirement"><span><img src="C:\Vs Code\my project\Bespoke\honsinss.png"></span><span class="hone_ins_text">Post Your Requirement</span></p></a></li>
+										</ul>
+									<div class="meta-content">
+										
+																				<a style="text-transform: unset;" class="meta-property button" onclick="addpropertylogin();" href="#popup_login" data-init="magnificPopup" data-options='{"type":"inline","removalDelay":700}' data-effect="mfp-3d-unfold" title="Add New Property">	
+											
+																				<span><!----<i class="fa fa-plus-circle"></i>---><img src="C:\Vs Code\my project\Bespoke\rent.png"></span><p>Post / Sell Property For Free</p>
+										</a>
+										<span>
+										<a class="blogdata" style="font-size:14px;font-weight: 600;" href="blog"><img style=" float: left;  margin-top: 4px;" src="C:\Vs Code\my project\Bespoke\blogspot.png"><span class="hone_ins_text" style="width:112px;">Blog</span></p></a>
+										</span>
+										
+<a style="text-transform: unset;" class="popup-login login_main_c" href="#popup_login" data-init="magnificPopup" data-options='{"type":"inline","removalDelay":700}' data-effect="mfp-3d-unfold" title="Login"> <!----<i class="fa fa-user"></i>---><img src="C:\Vs Code\my project\Bespoke\login.png"><p class="hone_ins_text">&nbsp;&nbsp; Login</p></a>					
+	<!-- popup-login -->
+	<div class="popup-content box-login mfp-with-anim mfp-hide" id="popup_login">
+		<p class="title">Login</p>
+										
+		<form id="LoginForm" action="ajax-login-register" class="login-member-container" method="post">
+			<input type="hidden" name="ajaxtype" value="Login" />
+			<input type="hidden" id="addpropertylogin" value="" />									
+			<div class="login-member-wrap">
+				<div class="register-member-left">
+					<div class="item-wrap">
+						<input type="text" placeholder="Mobile Number" name="mobile" maxlength="10" class="otpmobileno" id="mobile" required />
+						<span name="ajaxtype" id="resend_otp" style="color:#f9a11b; cursor: pointer; float: right;">( Resend OTP )</span>
+					</div>
+					
+					<div class="row" id="loginbtnpassotp">
+                    <div class="col-sm-5" style="padding:0px;">				
+						<div class="login-member-action">
+								<div class="item-wrap">
+								<input type="button" class="btnSubmit button btn-primary" style="padding: 10px 19px;" name="ajaxtype" id="sendotp" value="Login with OTP"  autocomplete="off">
+								</div>
+						</div>
+					</div>
+					<div class="col-sm-7">
+						<div class="item-wrap" id="loginbtnpass">
+						<button type="button" name="login-account" class="button btn-primary" id="loginbtnpass" style="padding: 10px 20px;"> Login With Password </button>
+						</div>
+					</div>
+			    </div>
+					<div class="item-wrap" id="otp_field">
+						<input type="text" placeholder="Enter OTP" name="otp" required />
+					</div>
+					<!---<div class="item-wrap">
+						<input type="password" placeholder="Enter Password" name="password" required />
+					</div>--->
+				</div>
+				<div class="row">
+				<div class="col-md-5">
+				<div class="login-member-action">
+						<button type="submit" name="login-account" class="button btn-primary" id="loginbtn"> Login <i id="login_spin" class="fa-li fa fa-spinner fa-spin hide"></i></button>
+						
+				</div>
+				</div>
+				<div class="col-md-7">
+				<div class="item-wrap" id="loginbtnpass">
+						<button type="button" name="login-account" class="button btn-primary" id="loginbtnpasssendotp" style="padding: 10px 20px;"> Login With Password </button>
+						</div>
+				</div>
+				</div>
+				
+				<div id="LoginForm_msg"></div>
+			</div>
+			
+		</form>
+		
+		
+		<form id="LoginFormpassword" action="ajax-login-register" class="login-member-container" method="post">
+			<input type="hidden" name="ajaxtype" value="Loginpassword" />
+			<input type="hidden" id="addpropertylogin" value="" />									
+			<div class="login-member-wrap">
+				<div class="register-member-left">
+					<div class="item-wrap">
+						<input type="text" placeholder="Mobile Number" name="mobile" maxlength="10" id="mobile" />
+					</div>
+					<div class="item-wrap">
+						<input type="password" placeholder="Enter Password" name="password" />
+					</div>
+				</div>
+                <div class="row">
+                    <div class="col-sm-7">				
+						<div class="login-member-action">
+								<button type="submit" name="login-account"  style="padding: 10px 20px;" class="button btn-primary" id="loginbtn"> Login with Password<i id="login_spin" class="fa-li fa fa-spinner fa-spin hide"></i></button>
+								
+						</div>
+					</div>
+					<div class="col-sm-5" style="padding:0px;">
+						<div class="item-wrap">
+							<button type="button" name="login-account" class="button btn-primary" style="padding:10px 18px;" id="loginbtnotp"> Login with OTP </button>
+						</div>
+					</div>
+					
+			    </div>
+				<div id="LoginFormpass_msg"></div>
+			</div>
+			
+		</form>
+		
+		<div class="login-member-action">
+						<div class="regester_footer">
+						  <p>
+							<span>Not have an Account? </span> 
+							<a class="color" href="#popup_register" data-init="magnificPopup" data-options='{"type":"inline","removalDelay":700}' data-effect="mfp-3d-unfold" title="Register Now">Register now</a>
+						  </p>
+						  <p> 
+							<span>Forgot password? </span>
+							<a class="color" href="#popup_forgot_password" data-init="magnificPopup" data-options='{"type":"inline","removalDelay":700}' data-effect="mfp-3d-unfold" title="Forgot password">Reset is here</a>
+						  </p>
+						</div>
+		</div>
+	
+	</div><!-- End / popup-login -->
+										
+	<!-- popup-register -->
+	<div class="popup-content box-login mfp-with-anim mfp-hide" id="popup_register">
+		<p class="title">Register</p>
+		<form id="RegisterForm" action="ajax-login-register" class="login-member-container" method="post">
+			<input type="hidden" name="ajaxtype" value="Register" />
+										
+			<div class="login-member-wrap">
+				<div class="register-member-left">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="item-wrap">
+							<input type="radio" class="with-gap" name="transaction_type" id="individual" value="INDIVIDUAL"> <label id="labledata" for="individual"> INDIVIDUAL</label>	
+						   <input type="radio"class="with-gap" name="transaction_type" id="builder" value="BUILDER"> <label id="labledata" for="builder"> BUILDER</label>
+						   <input type="radio" class="with-gap" name="transaction_type" id="agent" value="AGENT"> <label id="labledata" for="agent"> AGENT</label>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item-wrap">
+						<input type="text" name="firstname" placeholder="First Name *" autocomplete="off" required />
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-wrap">
+						<input type="text" name="lastname" placeholder="Last Name *" autocomplete="off" required />
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item-wrap">
+						<input type="email" name="email" placeholder="Email Address *" autocomplete="off" required />
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-wrap">
+						<input type="text" name="mobile" placeholder="Mobile Number *" maxlength="10" autocomplete="off" required />
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="item-wrap">
+						<input type="password" name="password" placeholder="Password *" autocomplete="off" required />
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="item-wrap">
+						<input type="password" name="cpassword" placeholder="Confirm Password *" autocomplete="off" required />
+						</div>
+					</div>    
+				</div> 
+				<div class="row"> 
+					<div class="col-md-12 checkbox">
+						
+						  <input type="checkbox" name="subscribe" id="subscribe">
+						  <label for="subscribe"><span class="checkbox"></span>Subscribe Newsletter</label>
+					</div>
+					<div class="col-md-12 checkbox">
+						<input type="checkbox" name="termcondition" id="termcondition" required>
+						  <label for="termcondition"><span class="checkbox"></span> I Accept the <a class="color"  href="">Terms of Use</a> and <a class="color" href="">Privacy Policy</a></label>
+						</div>
+					<div class="col-md-12">
+					
+						<div class="login-member-action">
+							<button type="submit" class="button btn-primary" id="popup_register_otp">Register <i id="register_spin" class="fa-li fa fa-spinner fa-spin hide"></i></button>
+							<div id="RegisterForm_msg"></div>
+							<div class="regester_footer">
+							  <p>
+							   <span>Already have an Account? </span> 
+							   <a class="color" href="#popup_login" data-init="magnificPopup" data-options='{"type":"inline","removalDelay":700}' data-effect="mfp-3d-unfold" title="Login Now">Login</a>
+							  </p>
+							  <p> 
+								<span>Forgot password? </span>
+								<a class="color" href="#popup_forgot_password" data-init="magnificPopup" data-options='{"type":"inline","removalDelay":700}' data-effect="mfp-3d-unfold" title="Forgot password">Reset is here</a>
+							  </p>
+							 </div>
+						</div>
+					
+					</div>
+				</div>
+					
+				</div>
+				
+			</div>
+		</form>
+	</div><!-- End / popup-register -->
+					
+									
+	<!-- popup-forgot-password -->
+	<div class="popup-content box-login mfp-with-anim mfp-hide" id="popup_forgot_password">
+		<p class="title">Forgot Password</p>
+		<form id="ForgotPasswordForm" action="ajax-login-register" class="login-member-container" method="post">
+			<input type="hidden" name="ajaxtype" value="ForgotPassword" />								
+			<div class="login-member-wrap">
+				<div class="register-member-left">
+					<div class="item-wrap">
+						<input type="text" placeholder="Enter Mobile Number" maxlength="10" name="mobile" required />
+					</div>
+				</div>
+				<div class="login-member-action">
+					<button type="submit" name="login-account" class="button btn-primary">Submit <i id="forgot_password_spin" class="fa-li fa fa-spinner fa-spin hide"></i></button>
+					<div id="ForgotPasswordForm_msg"></div>
+					<div class="regester_footer">
+					  <p>
+						<span>Already have an Account? </span> 
+						<a class="color" href="#popup_login" data-init="magnificPopup" data-options='{"type":"inline","removalDelay":700}' data-effect="mfp-3d-unfold" title="Login Now">Login</a>
+					  </p>
+					  <p>
+						<span>Not have an Account? </span> 
+						<a class="color" href="#popup_register" data-init="magnificPopup" data-options='{"type":"inline","removalDelay":700}' data-effect="mfp-3d-unfold" title="Register Now">Register now</a>
+					  </p>
+					</div>
+				</div>
+			</div>  
+		</form>
+	</div><!-- End / popup-forgot-password -->
+	
+	
+	
+	
+	
+<script>
+$(document).ready(function(){
+  $(".login_main_c").click(function(){
+	  $("#LoginForm").hide();
+       $("#LoginFormpassword").show();
+   });
+  });
+
+$(document).ready(function(){
+	$("#LoginFormpassword").hide();
+  $("#loginbtnpass").click(function(){
+	  var mobile = $("#mobileotp").val();
+	  $("#mobilepassword").val(mobile);
+	  $("#LoginForm").hide();
+	  $("#LoginFormpassword").show();
+    
+  });
+  $("#loginbtnpasssendotp").click(function(){
+	  // var mobile = $("#mobileotp").val();
+	  // $("#mobilepassword").val(mobile);
+	  $("#LoginForm").hide();
+	  $("#LoginFormpassword").show();
+    
+  });
+  $("#loginbtnotp").click(function(){
+
+    $("#LoginFormpassword").hide();
+	 $("#LoginForm").show();
+
+  });
+  
+  $("#loginbtnpasssendotp").hide();
+  $("#sendotp").click(function(){
+	  $("#loginbtnpasssendotp").hide();
+	  var mobile = $(".otpmobileno").val();
+		if(mobile){
+		$("#loginbtnpass").hide();
+		$("#loginbtnpasssendotp").show();
+		}else{
+		$("#loginbtnpass").show();	
+		}
+
+  });
+  
+  
+
+});
+
+
+$(document).ready(function(){
+  $("a.meta-property.button").click(function(){
+    $("#addpropertylogin").val("Yes");
+	$("#LoginForm").hide();
+       $("#LoginFormpassword").show();
+  });
+});
+
+
+$("#otp_field").hide();
+$("#resend_otp").hide();
+$("#loginbtn").hide();
+$("#sendotp").click(function(e) {
+	
+	e.preventDefault();
+	
+				$.ajax({
+					
+				url: 'ajax-login-register.php?ajaxtype=sendOTP',
+
+				type: "POST",
+
+				data: { mobile:$('#mobile').val() },
+
+				// contentType: "application/json; charset=utf-8",
+
+				cache: false,
+
+				success: function(response){
+
+					 response = JSON.parse(response);
+
+					 var type = response.type;
+
+					 var message = response.message;
+					 
+					 $('#LoginForm_msg').html(message);
+					 
+					 if(type =='success') {
+                        $("#sendotp").hide();
+						$("#resend_otp").show();
+						$("#otp_field").show(); 
+						$("#loginbtn").show(); 
+
+						
+
+					 }
+
+				},
+
+				error: function(){}          
+
+			});
+});
+
+
+
+$("#resend_otp").click(function(e) {
+	
+	e.preventDefault();
+	
+				$.ajax({
+					
+				url: 'ajax-login-register.php?ajaxtype=sendOTP',
+
+				type: "POST",
+
+				data: { mobile:$('#mobile').val() },
+
+				// contentType: "application/json; charset=utf-8",
+
+				cache: false,
+
+				success: function(response){
+
+					 response = JSON.parse(response);
+
+					 var type = response.type;
+
+					 var message = response.message;
+					 
+					 $('#LoginForm_msg').html(message);
+					 
+					 
+					 if(type =='success') {
+                        $("#sendotp").hide();
+						$("#resend_otp").show();
+						$("#otp_field").show(); 
+						$("#loginbtn").show();
+                      					
+					 }
+
+				},
+
+				error: function(){}          
+
+			});
+});
+
+
+</script>  
+	
+	
+	
+	<script>
+
+$('#RegisterForm').on('submit', function(e){
+	   e.preventDefault();
+	   
+	   $('#register_spin').removeClass('hide');
+	   
+	   var addpropertylogin = $('#addpropertylogin').val();
+    
+	$.ajax({
+		url: $(this).attr('action'),
+		type: "POST",
+		data: $(this).serialize(),
+		cache: false,
+		success: function(response){
+			
+			$('#register_spin').addClass('hide');
+	   
+			var responsedata = response;
+			
+			if(isJson(response)) {
+		
+		     response = JSON.parse(response);
+			
+			 var type = response.type;
+			 var message = response.message;
+			 
+			 var message_data = customMessage(type,message);
+			 
+			 $('#RegisterForm_msg').html(message_data);
+			 
+			 if(type =='success') {
+				 
+				 if(addpropertylogin == 'Yes') {
+					
+					setTimeout(function(){location.href="user/add-property"} , 1000); 
+					 
+				 } else {
+				 
+					setTimeout(function(){location.href="http://bespoketechnologies.co.in/AMN/my99yard/property/plot-for-sale"} , 1000); 
+				
+				 }
+				 
+			 } 
+			 
+			} else {
+				
+				 $('#RegisterForm_msg').html('');
+				$('#RegisterForm').html(responsedata);
+			}
+			 
+			 
+		},
+		error: function(){}          
+	});
+});
+
+
+$('#LoginForm').on('submit', function(e){
+	   e.preventDefault();
+	   
+	   $('#login_spin').removeClass('hide');
+	   
+	   var addpropertylogin = $('#addpropertylogin').val();
+    
+	$.ajax({
+		url: $(this).attr('action'),
+		type: "POST",
+		data: $(this).serialize(),
+		cache: false,
+		success: function(response){
+			
+			$('#login_spin').addClass('hide');
+	   
+			 response = JSON.parse(response);
+			
+			 var type = response.type;
+			 var message = response.message;
+			 
+			 var message_data = customMessage(type,message);
+			 
+			 $('#LoginForm_msg').html(message_data);
+			 
+			 if(type =='success') {
+				 
+				if(addpropertylogin == 'Yes') {
+					
+					setTimeout(function(){location.href="http://bespoketechnologies.co.in/AMN/my99yard/post-property"} , 1000); 
+					 
+				 } else {
+				 
+					setTimeout(function(){location.href="http://bespoketechnologies.co.in/AMN/my99yard/property/plot-for-sale"} , 1000); 
+				
+				 } 
+				 
+			 } 
+			 
+		},
+		error: function(){}          
+	});
+});
+
+
+
+$('#LoginFormpassword').on('submit', function(e){
+	   e.preventDefault();
+	   
+	   $('#login_spin').removeClass('hide');
+	   
+	   var addpropertylogin = $('#addpropertylogin').val();
+    
+	$.ajax({
+		url: $(this).attr('action'),
+		type: "POST",
+		data: $(this).serialize(),
+		cache: false,
+		success: function(response){
+			
+			$('#login_spin').addClass('hide');
+	   
+			 response = JSON.parse(response);
+			
+			 var type = response.type;
+			 var message = response.message;
+			 
+			 var message_data = customMessage(type,message);
+			 
+			 $('#LoginFormpass_msg').html(message_data);
+			 
+			 if(type =='success') {
+				 
+				if(addpropertylogin == 'Yes') {
+					
+					setTimeout(function(){location.href="http://bespoketechnologies.co.in/AMN/my99yard/post-property"} , 1000); 
+					 
+				 } else {
+				 
+					setTimeout(function(){location.href="http://bespoketechnologies.co.in/AMN/my99yard/property/plot-for-sale"} , 1000); 
+				
+				 } 
+				 
+			 } 
+			 
+		},
+		error: function(){}          
+	});
+});
+
+
+
+
+$('#ForgotPasswordForm').on('submit', function(e){
+	   e.preventDefault();
+	   
+	   $('#forgot_password_spin').removeClass('hide');
+    
+	$.ajax({
+		url: $(this).attr('action'),
+		type: "POST",
+		data: $(this).serialize(),
+		cache: false,
+		success: function(response){
+			
+			$('#forgot_password_spin').addClass('hide');
+	   
+			 response = JSON.parse(response);
+			
+			 var type = response.type;
+			 var message = response.message;
+			 
+			
+			 
+			 if(type =='success') {
+				 
+				
+				 var successhtml ='<div class="social-login-widget"><p style="color: green;font-size: 22px;" class="social-login-connect-with">'+message+'</p><p class="register_info">get your password.</p></div>';
+				 
+				
+				 $('#ForgotPasswordForm').html(successhtml);
+				 
+			 } else { 
+			 
+			  var message_data = customMessage(type,message);
+			  
+			  $('#ForgotPasswordForm_msg').html(message_data);
+			 
+			 }
+			 
+		},
+		error: function(){}          
+	});
+});
+
+
+</script>
+										
+ 
+										
+									</div>
+								</div>
+								
+								<nav class="pull-right main-menu">
+									<ul class="nav-collapse navbar-nav">
+									<li><a href="http://bespoketechnologies.co.in/AMN/my99yard/">Home</a></li>
+										<!---<li><a href="post-requirement">Post Your Requirement</a></li>
+										<li><a href="home-loan">Home Loan & Other</a></li>
+										<li><a href="home-insurance">Home Insurance</a></li>
+										 <li><a href="blog">Blog</a></li>-->
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+		<div class="header_fixed_c"></div>
+				
+				<div class=" navPanel">
+				  <div class="link link1">
+				    <figure><img class="img-responsive" src="assets/images/iconcallback.svg" alt="callback"></figure>
+				    <span>Call Back</span></div>
+				  <div class="link link2">
+				    <figure><img class="img-responsive" src="assets/images/iconmail.svg" alt="meeting"></figure>
+				    <span>Email</span></div>
+				  <div class="link link3">
+				    <figure><img class="img-responsive" src="assets/images/iconwhatsup.svg" alt="whatsup"></figure>
+				    <span>Whatsapp</span></div>
+				</div>
+
+
+			<div class="intercom active">
+				<img class="img-responsive" src="C:\Vs Code\my project\Bespoke\interncom.png" alt="intercom-icon">
+			</div>
+
+
+
+		<div class="intercomCloseBtn"><em class="fa fa-close"></em></div>
+
+<div id="main">
+
+		
+	<div class="section pt-8 pb-15">
+		<div class="container">
+				
+				<div class="row">
+						  
+						   <div class="col-md-9"> 
+						   
+						    	<div class="property-item">
+								<div class="property-item-wrap" style="margin:0px;">
+									<div class="row">						
+									<div class="col-md-5">						
+									<div class="item-featured image">					
+									<img src="http://bespoketechnologies.co.in/AMN/my99yard/uploads/1591598361khW8JqzB.png" />		
+									<span class="property-status">For Sale</span>					
+									</div>							</div>				
+									<div class="col-md-7">		
+									<div class="item-head">		
+									<h4 class="item-title"> PLOT for Sale</h4>	
+									<span class="location">, Yamunanagar </span>	
+									</div>						
+									<div class="info">
+											
+										<span class="primary-file-4" style="width:28%; padding: 10px; border: 1px solid #e5e5f8; margin-bottom: 14px;">					
+										<i class="icon-storage"></i> 
+										<span>99YARD0065</span>			
+										</span>							
+																			
+											
+										<span class="primary-file-1" style="width:28%; padding: 10px; border: 1px solid #e5e5f8; margin-bottom: 14px;">		
+										<i class="fa fa-map-marker"></i> <span>
+										Abdullapur </span>	
+										</span>							
+													
+												
+										<span class="primary-file-2" style="width:28%; padding: 10px; border: 1px solid #e5e5f8; margin-bottom: 14px;">						
+										<i class="icon-storage"></i> <span>FREE HOLD</span>	
+										</span>							
+																	    
+											
+                                        										
+										<span class="primary-file-2 primary-file-c">	
+										<span>PLOT</span>	
+										</span>	
+																			</div>								
+									<div class="action">	
+										<div class="price">	
+																				<span class="amount"><i class="fa fa-inr"></i> &nbsp; 2000000</span>
+																				
+										  </div>												  
+									</div>														
+									</div>	
+									</div>
+								</div>
+							</div>					   
+							<div>
+								<ul class="header-control tabs">
+									<!---<li class="active">
+										<a data-toggle="tab" href="#tab-gallery" aria-expanded="true"><i class="fa fa-picture-o" aria-hidden="true"></i> View Photo</a>
+									</li>-->
+									<li>
+										<a  target="_blank" href="https://www.google.com/maps/@30.166365167492472,77.30396789659203,10z" ><i class="fa fa-map-marker" aria-hidden="true"></i> View Map</a>
+									</li>
+								</ul>
+								
+									<!--<div id="tab-map" class="tab-pane fade">
+										<div id="googleMap2" data-icon="http://bespoketechnologies.co.in/AMN/my99yard/assets/images/icon/marker-icon-new.png" data-lat="30.166365167492472" data-lon="77.30396789659203"></div>
+									</div>
+								</div>----------->
+							</div>
+							
+							<div class="action menu_tab">
+							
+																<div class="detail-content tabs" style="border: 1px solid #e5e5f8;">
+										<ul class="detail-tabs tabs">
+											<li class="active">
+												<a  href="/AMN/my99yard/property/plot-for-sale#overview" >Overview</a>
+											</li>
+											<li>
+												<a  href="/AMN/my99yard/property/plot-for-sale#address" >Address</a>
+											</li>
+											<li>
+												<a  href="/AMN/my99yard/property/plot-for-sale#property_details" >Property Details</a>
+											</li>
+											<li>
+												<a href="/AMN/my99yard/property/plot-for-sale#description" >Description</a>
+											</li>
+											<li>
+												<a href="/AMN/my99yard/property/plot-for-sale#Amenities" >Amenities</a>
+											</li>
+											<li>
+												<a href="/AMN/my99yard/property/plot-for-sale#gallery" >Gallery</a>
+											</li>
+										</ul>							
+										
+								    </div>
+							 
+							</div> 
+							<div>
+								<div class="single-property-detail">
+									<!-----------<div class="detail-header">
+										<h2 class="detail-title"></h2>
+										
+										<div class="info">
+											<div class="row">
+												<div class="col-md-12">
+														<div>
+															<label>&nbsp;</label>
+															<span><i class="fa fa-map-marker"></i> 													
+															</span>
+														</div>
+												</div>
+												<div class="row">
+													<div class="col-md-12">
+														<div>
+															
+															<div class="price" style="font-size: 20px; margin-left: 10px; padding-top: 10px;">$&nbsp;</div>													
+															</span>
+														</div>
+													</div>
+												</div>	
+											</div>
+										</div>
+										
+									</div>---------->
+									
+									<section id="overview">	
+									<div class="detail-header" >
+										<h3 class="detail-title">Overview</h3>
+									</div>
+									<div class="detail-content">
+										<div class="row">
+											<div class="col-md-12">
+												<div class="row">
+												   <div class="col-sm-4">
+													  <div class="text-sty01"><small>Property Type</small><br><big>PLOT</big></div>
+												   </div>
+												   <div class="col-sm-4">
+													  <div class="text-sty01"><small>Balconies</small><br><big> Balconies </big></div>
+												   </div>
+												   <div class="col-sm-4">
+													  <div class="text-sty01"><small>Bathroom</small><br><big> Bathrooms</big></div>
+												   </div>
+												   <div class="col-sm-4">
+													  <div class="text-sty01"><small>Built Up Area</small><br><big> sq. ft</big></div>
+												   </div>
+												   
+												   <div class="col-sm-4">
+													  <div class="text-sty01"><small>Availablity</small><br><big>Ready to Move</big></div>
+												   </div>
+												</div>
+											</div>
+											
+											
+										</div>
+									</div>
+									</section>
+									
+								    <section id="address">
+									<div class="detail-header" >
+										<h3 class="detail-title">Address</h3>
+									</div>
+									<div class="detail-content">
+										<div class="row">
+											<div class="col-md-12">
+												<div>
+												    <label>&nbsp;</label>
+													<span><i class="fa fa-map-marker"></i> Abdullapur 													
+													</span>
+												</div>
+												
+												
+											</div>
+											
+											
+										</div>
+									</div>
+									</section>
+									<section  id="property_details">
+									<div class="detail-content">
+										<div class="row">
+											<div class="col-md-12 mb-4">
+												<div class="detail-header">
+													<h3 class="detail-title">Property Details</h3>
+												</div>
+												<div class="content-box">
+												    
+													<div class="col-sm-6 col-xs-12">
+													<div class="content-box-item">
+														<label>Property ID</label><span class="custom_comman">: </span>
+														<span>99YARD0065</span>
+													</div>
+													</div>
+													
+																										<div class="col-sm-6 col-xs-12">
+													<div class="content-box-item">
+														<label>Personal Details</label><span class="custom_comman">: </span>
+														<span>FREE HOLD</span>
+													</div>
+													</div>
+																										
+																										<div class="col-sm-6 col-xs-12">
+													<div class="content-box-item">
+														<label>Property for</label><span class="custom_comman">: </span>
+														<span>Sale</span>
+													</div>
+													</div>
+																										
+																										<div class="col-sm-6 col-xs-12">
+													<div class="content-box-item">
+														<label>Property Type</label><span class="custom_comman">: </span>
+														<span>PLOT</span>
+													</div>
+													</div>
+																										
+																										<div class="col-sm-6 col-xs-12">
+													<div class="content-box-item">
+														<label>City</label><span class="custom_comman">: </span>
+														<span>Yamunanagar</span>
+													</div>
+													</div>
+																										
+																										
+													
+																										
+																										
+																										<div class="col-sm-6 col-xs-12">
+													<div class="content-box-item">
+														<label>Furnished</label><span class="custom_comman">: </span>
+														<span>Full Furnished</span>
+													</div>
+													</div>
+																										
+																										
+																																							
+													
+																										
+																																																																																											<div class="col-sm-6 col-xs-12">
+													<div class="content-box-item">
+														<label>Plot and Land Area</label><span class="custom_comman">: </span>
+														<span>6 kanal</span>
+													</div>
+													</div>
+																										
+													<!-----------new details--------->		
+															
+															
+													<div class="col-sm-6 col-xs-12">		
+													<div class="content-box-item">		
+													<label>Age of property</label><span class="custom_comman">: </span>
+													<span>5 Years</span>	
+													</div>												
+													</div>	
+																			
+																						
+																						
+																								
+																									
+													                                                        	
+														
+														
+													   														
+																											
+																									
+																									
+																
+													<div class="col-sm-6 col-xs-12">					
+													<div class="content-box-item">						
+													<label>Locality</label><span class="custom_comman">: </span>	
+													<span>Jagadhri</span>	
+													</div>											
+													</div>												
+																									
+																										
+																									
+																									
+															
+													<div class="col-sm-6 col-xs-12">						
+													<div class="content-box-item">							
+													<label>Property Title</label><span class="custom_comman">: </span>	
+													<span>FREE HOLD</span>		
+													</div>													
+													</div>												
+																										
+														
+													<div class="col-sm-6 col-xs-12">						
+													<div class="content-box-item">						
+													<label>Transaction Type</label><span class="custom_comman">: </span>
+													<span>INDIVIDUAL</span>			
+													</div>													
+													</div>												
+														
+													
+																										
+																	
+													<div class="col-sm-6 col-xs-12">							
+													<div class="content-box-item">								
+													<label>Booking Amount</label><span class="custom_comman">: </span>	
+													<span><i class="fa fa-inr"></i> 1000000</span>				
+													</div>													
+													</div>													
+																											
+																									
+																										
+																									
+													<!------------new fields-------------------------->		
+													
+													<div class="custom_clear_both"></div>
+												</div>
+											</div>
+											
+											
+																						
+										</div>										
+									</div>
+									</section>
+									
+									
+									<section id="description">
+									<div class="detail-header">
+										<h3 class="detail-title">Description</h3>
+									</div>
+									<div class="detail-content">
+										<div class="row">
+											<div class="col-md-12">
+														
+													<div class="col-sm-12 col-xs-12">						
+														
+													<span>A plot near road, for sale.
+In yamuna nagar haryana. </span>				
+													</div>												
+													</div>													
+													
+												
+												
+											</div>
+											
+											
+										</div>
+										</section>
+										<section id="Amenities">
+									<div class="detail-header" >
+										<h3 class="detail-title">Amenities </h3>
+									</div>
+									<div class="detail-content">
+										<div class="row">
+												<div class="col-md-12">
+												<h4>Property Feature</h4>
+												</div>
+											<div class="col-md-12">
+												
+																																																																		
+																																																							
+												<div class="col-md-12" style="padding: 0px;">
+												<h4>Other Feature</h4>
+												</div>
+													
+																						
+																																	
+											
+											
+																																																																		
+											
+											
+																																																																																																																									
+											
+											
+											</div>
+											<div class="row">
+											
+																		
+													<div class="col-sm-6 col-xs-12" style="width: 42%; margin-left: 30px; margin-top: 5px;">								
+													<div class="content-box-item">									
+													<label>Facing</label><span class="custom_comman">: </span>	
+													<span>North-East</span>			
+													</div>													
+													</div>												
+																															
+													<div class="col-sm-6 col-xs-12" style="width: 42%; margin-left: 30px; margin-top: 5px;">								
+													<div class="content-box-item">									
+													<label>Facing Road</label><span class="custom_comman">: </span>	
+													<span>Feet</span>			
+													</div>													
+													</div>												
+																															
+													<div class="col-sm-6 col-xs-12" style="width: 42%; margin-left: 30px; margin-top: 5px;">								
+													<div class="content-box-item">									
+													<label>Flooring</label><span class="custom_comman">: </span>	
+													<span>Select</span>			
+													</div>													
+													</div>												
+																															
+													<div class="col-sm-6 col-xs-12" style="width: 42%; margin-left: 30px; margin-top: 5px;">								
+													<div class="content-box-item">									
+													<label>Power Backup</label><span class="custom_comman">: </span>	
+													<span>None</span>			
+													</div>													
+													</div>												
+																							 
+											</div>
+											
+											<div class="col-md-12">
+												
+																								<h4>Additional Information</h4>												
+																																																							
+													<div class="col-sm-4 col-xs-12">		
+														<div class="content-box-item amenities_data">		
+															<span>Visitor Parking Available</span>	
+														</div>												
+													</div>
+																																																																																																																																																																																																																																																																																																																																																																																																																																															
+																						
+											</div>
+										</div>
+									</div>
+									</section>
+									<section id="gallery">
+									<div class="detail-header">
+										<h3 class="detail-title">Gallery</h3>
+									</div>
+									<div class="detail-content">
+										
+										<div class="tab-content" style="padding:0px;margin: 10px 0px;">
+								    <div class="tab-pane fade active in" id="tab-gallery">
+										<!-----<div class="property-detail-carousel" data-auto-play="false" data-desktop="1" data-laptop="1" data-tablet="1" data-mobile="1">
+											<div class="item">
+												<img style="width: 100%;" src="http://bespoketechnologies.co.in/AMN/my99yard/uploads/1591598361khW8JqzB.png" alt="" />
+											</div>-->
+											
+																						
+																						<div class="gallery">
+											<a href="http://bespoketechnologies.co.in/AMN/my99yard/uploads/1591598361kwiUPbYc.png" data-fancybox="images-preview" data-width="1500" data-height="1000" data-thumbs='{"autoStart":true}'><img src="http://bespoketechnologies.co.in/AMN/my99yard/uploads/1591598361kwiUPbYc.png"></a>
+											
+											</div>
+											
+											<!---<div class="row">
+												<div class="col-md-6">
+													<div class="item">
+														<img src="http://bespoketechnologies.co.in/AMN/my99yard/uploads/1591598361kwiUPbYc.png" alt="" />
+													</div>
+												</div>
+											</div>--->
+											
+																						<div class="gallery">
+											<a href="http://bespoketechnologies.co.in/AMN/my99yard/uploads/1591598361Wn7yfrco.png" data-fancybox="images-preview" data-width="1500" data-height="1000" data-thumbs='{"autoStart":true}'><img src="http://bespoketechnologies.co.in/AMN/my99yard/uploads/1591598361Wn7yfrco.png"></a>
+											
+											</div>
+											
+											<!---<div class="row">
+												<div class="col-md-6">
+													<div class="item">
+														<img src="http://bespoketechnologies.co.in/AMN/my99yard/uploads/1591598361Wn7yfrco.png" alt="" />
+													</div>
+												</div>
+											</div>--->
+											
+																						
+											<script>
+											$(document).ready(function() {
+											  $(".gallery a").fancybox();
+											});
+											</script>
+											
+										
+										</div>
+									</div>	
+											
+									</div>
+										</section>
+								</div>
+									
+							</div>
+							
+							</div>
+							
+							
+							
+							<div class="col-md-3">
+							  <div class="sidebar">
+									
+									<div class="widget">
+										<h3 class="widget-title">CONTACT OWNER</h3>
+										<div class="box-form">
+												<form id="ContactOwnerForm" action="ajax" class="box-contact-agent" method="post">
+												<input type="hidden" name="ajaxtype" value="ContactOwner" />
+												<input type="hidden" name="encrypt" value="fc490ca45c00b1249bbe3554a4fdf6fb" />
+												<input type="hidden" name="property_id" value="65" />
+													<div class="item-wrap">
+														<input type="text" name="name" placeholder="Name *" required>
+													</div>
+													<div class="item-wrap">
+														<input type="text" name="mobile" placeholder="Mobile *" required />
+													</div>
+													<div class="item-wrap">
+														<input type="email" name="email" placeholder="Email *" required />
+													</div>
+													<div class="item-wrap">
+														<textarea name="message" placeholder="Your Message "></textarea>
+													</div>
+													<div class="form-action">
+														<button type="submit" class="button">
+															<span>Submit </span><i id="ContactOwner_spin" class="fa-li fa fa-spinner fa-spin hide"></i>
+														</button>
+													</div>
+													<div id="ContactOwner_msg"></div>
+												</form>
+										</div>
+									</div>
+									
+									
+																
+																	
+									<div class="widget">
+										<h3 class="widget-title">Nearby Property</h3>
+										<div class="featured-agent">
+										
+																				
+										   	<div class="agent-item">
+												<div class="thumbnail">
+													<a href="property/plot-for-sale-1" title="">
+													<img src="http://bespoketechnologies.co.in/AMN/my99yard/uploads/1591598447Mc4tMLZl.png" alt="" />
+													</a>
+												</div>
+												<div class="content">
+													<div class="item-title">
+													<a href="property/plot-for-sale-1" title=""> PLOT for Sale</a>
+													</div>
+													<span class="total-property"><i class="fa fa-inr"></i> 0</span>
+												</div>
+											</div>
+										
+																				
+										
+										</div>
+									</div>
+									
+																								
+								
+								</div>
+							</div>
+							
+						</div>
+						
+					</div>
+			
+			
+			
+			</div>
+			
+			
+		</div>
+
+<script>
+
+$('#ContactOwnerForm').on('submit', function(e){
+	   e.preventDefault();
+	   
+	   $('#ContactOwner_spin').removeClass('hide');
+    
+	$.ajax({
+		url: $(this).attr('action'),
+		type: "POST",
+		data: $(this).serialize(),
+		cache: false,
+		success: function(response){
+			
+			$('#ContactOwner_spin').addClass('hide');
+	   
+			 response = JSON.parse(response);
+			
+			 var type = response.type;
+			 var message = response.message;
+			 
+			 var message_data = customMessage(type,message);
+			 
+			 $('#ContactOwner_msg').html(message_data);
+			 
+			 
+		},
+		error: function(){}          
+	});
+});
+
+</script>
+
+
+
+<footer class="footer">
+				<div class="main-footer">
+					<div class="colophon wigetized">
+					
+					 						<!----<div class="footer_top_c">
+						<div class="container">
+							<div class="row">
+							
+							   <div class="footer-column-item col-md-3 col-sm-12">
+									<div class="widget widget_nav_menu">
+										<h4 class="widget-title">Property for Sale</h4>
+										<ul class="menu">
+										
+																				
+											<li><a href="search-property?type=Sale&city=1">Property in Chandigarh</a></li>
+											
+																				
+											<li><a href="search-property?type=Sale&city=2">Property in Ahmedabad</a></li>
+											
+																				
+											<li><a href="search-property?type=Sale&city=3">Property in Bhopal</a></li>
+											
+																				
+											<li><a href="search-property?type=Sale&city=4">Property in Gurgaon</a></li>
+											
+																				
+											<li><a href="search-property?type=Sale&city=5">Property in Ghaziabad</a></li>
+											
+																				
+											<li><a href="search-property?type=Sale&city=6">Property in Greater Noida</a></li>
+											
+																				
+											<li><a href="search-property?type=Sale&city=7">Property in Indore</a></li>
+											
+																				
+											<li><a href="search-property?type=Sale&city=8">Property in Jaipur</a></li>
+											
+																				
+											<li><a href="search-property?type=Sale&city=9">Property in Noida</a></li>
+											
+																				
+											<li><a href="search-property?type=Sale&city=10">Property in Raipur</a></li>
+											
+																				
+										</ul>
+									</div>
+								</div>
+							
+								<div class="footer-column-item col-md-3 col-sm-12">
+									<div class="widget widget_nav_menu">
+										<h4 class="widget-title">Property for Rent</h4>
+										<ul class="menu">
+										    										
+											<li><a href="search-property?type=Rent&city=1">Property for Rent in Chandigarh</a></li>
+											
+																				
+											<li><a href="search-property?type=Rent&city=2">Property for Rent in Ahmedabad</a></li>
+											
+																				
+											<li><a href="search-property?type=Rent&city=3">Property for Rent in Bhopal</a></li>
+											
+																				
+											<li><a href="search-property?type=Rent&city=4">Property for Rent in Gurgaon</a></li>
+											
+																				
+											<li><a href="search-property?type=Rent&city=5">Property for Rent in Ghaziabad</a></li>
+											
+																				
+											<li><a href="search-property?type=Rent&city=6">Property for Rent in Greater Noida</a></li>
+											
+																				
+											<li><a href="search-property?type=Rent&city=7">Property for Rent in Indore</a></li>
+											
+																				
+											<li><a href="search-property?type=Rent&city=8">Property for Rent in Jaipur</a></li>
+											
+																				
+											<li><a href="search-property?type=Rent&city=9">Property for Rent in Noida</a></li>
+											
+																				
+											<li><a href="search-property?type=Rent&city=10">Property for Rent in Raipur</a></li>
+											
+																					
+										</ul>
+									</div>
+								</div>
+								
+								<div class="footer-column-item col-md-3 col-sm-12">
+									<div class="widget widget_nav_menu">
+										<h4 class="widget-title">Plot for Sale</h4>
+										<ul class="menu">
+										    										
+											<li><a href="search-property?category=Plot&city=1">Plot for Sale in Chandigarh</a></li>
+											
+																				
+											<li><a href="search-property?category=Plot&city=2">Plot for Sale in Ahmedabad</a></li>
+											
+																				
+											<li><a href="search-property?category=Plot&city=3">Plot for Sale in Bhopal</a></li>
+											
+																				
+											<li><a href="search-property?category=Plot&city=4">Plot for Sale in Gurgaon</a></li>
+											
+																				
+											<li><a href="search-property?category=Plot&city=5">Plot for Sale in Ghaziabad</a></li>
+											
+																				
+											<li><a href="search-property?category=Plot&city=6">Plot for Sale in Greater Noida</a></li>
+											
+																				
+											<li><a href="search-property?category=Plot&city=7">Plot for Sale in Indore</a></li>
+											
+																				
+											<li><a href="search-property?category=Plot&city=8">Plot for Sale in Jaipur</a></li>
+											
+																				
+											<li><a href="search-property?category=Plot&city=9">Plot for Sale in Noida</a></li>
+											
+																				
+											<li><a href="search-property?category=Plot&city=10">Plot for Sale in Raipur</a></li>
+											
+																					
+										</ul>
+									</div>
+								</div>
+								
+								<div class="footer-column-item col-md-3 col-sm-12">
+									<div class="widget widget_nav_menu">
+										<h4 class="widget-title">Co-working Space</h4>
+										<ul class="menu">
+										
+																				
+											<li><a href="search-property?category=Co-working Space&city=1">PCo-working Space in Chandigarh</a></li>
+											
+																				
+											<li><a href="search-property?category=Co-working Space&city=2">PCo-working Space in Ahmedabad</a></li>
+											
+																				
+											<li><a href="search-property?category=Co-working Space&city=3">PCo-working Space in Bhopal</a></li>
+											
+																				
+											<li><a href="search-property?category=Co-working Space&city=4">PCo-working Space in Gurgaon</a></li>
+											
+																				
+											<li><a href="search-property?category=Co-working Space&city=5">PCo-working Space in Ghaziabad</a></li>
+											
+																				
+											<li><a href="search-property?category=Co-working Space&city=6">PCo-working Space in Greater Noida</a></li>
+											
+																				
+											<li><a href="search-property?category=Co-working Space&city=7">PCo-working Space in Indore</a></li>
+											
+																				
+											<li><a href="search-property?category=Co-working Space&city=8">PCo-working Space in Jaipur</a></li>
+											
+																				
+											<li><a href="search-property?category=Co-working Space&city=9">PCo-working Space in Noida</a></li>
+											
+																				
+											<li><a href="search-property?category=Co-working Space&city=10">PCo-working Space in Raipur</a></li>
+											
+																				
+											
+										</ul>
+									</div>
+								</div>
+								
+							</div>
+							</div>
+							</div>---------->
+							 							
+							<div class="footer_top_b">
+							<div class="container">
+							<div class="row">
+							
+							   <div class="footer-column-item col-md-4 col-sm-12">
+									<div class="widget widget_text">
+										<h3>Why my99yard.com ?</h3>
+										<div class="textwidget">
+											<p>my99yard.com is an online real estate marketplace dreamed by Rudra Group. It is an online forum where buyers, sellers and brokers/agents can exchange information about real estate properties quickly, effectively and inexpensively.With the legacy and trust acquired by Rudra Group, we at my99yard.com know the difference between finding a Home Vs House...<a href="http://bespoketechnologies.co.in/AMN/my99yard/why-my99yard">Read More</a></p>
+											
+												<div class="col-md-12" style=" padding: 0;" id="">	
+								<h4>Have a Property for Rend and Sale ?</h4>
+								<a class="button btn-primary" href="http://bespoketechnologies.co.in/AMN/my99yard/post-property">Post Your Property</a>					
+								<h4>Have any Property Requirement</h4>						
+								<a  class="button btn-primary" href="http://bespoketechnologies.co.in/AMN/my99yard/post-requirement">Post Your Property Requirement</a>													
+							</div>		
+											
+										</div>
+									</div>
+								</div>
+								
+								<div class="footer-column-item col-md-8 col-sm-12">
+							
+								<div class="footer-column-item col-md-3 col-sm-12">
+									<div class="widget widget_nav_menu">
+										<h4>Social Links</h4>
+										<ul class="menu soical_link_c">
+											<li><a href="https://www.facebook.com/My99Yard-110308487163319"><i class="fa fa-facebook"></i> Facebook</a></li>
+											<li><a href="javascript:void(0);"><i class="fa fa-google"></i> Google</a></li>
+											<li><a href="https://twitter.com/My99Yard"><i class="fa fa-twitter"></i> Twitter</a></li>
+											<li><a href="javascript:void(0);"><i class="fa fa-youtube"></i> Youtube</a></li>
+											<!---<li><a href="javascript:void(0);"><i class="fa fa-linkedin"></i> Linkedin</a></li>-->
+											
+										</ul>
+									</div>
+								</div>
+								
+								<div class="footer-column-item col-md-3 col-sm-12">
+									<div class="widget widget_nav_menu">
+										<h4>Company</h4>
+										<ul class="menu">
+											<li><a href="about-us">About Us</a></li>
+											<li><a href="contact-us">Contact Us</a></li>
+											<li><a href="terms-conditions">Terms & Conditions</a></li>
+											<li><a href="privacy-policy">Privacy Policy</a></li>
+											<li><a href="faq">FAQ</a></li>
+										</ul>
+									</div>
+								</div>
+								
+								<div class="footer-column-item col-md-6 col-sm-12">
+									<div class="widget widget_text">
+										<h4>Contact Us</h4>
+										<div class="textwidget">
+											<ul class="contact-info">
+												<li><i class="fa fa-map-marker fa-spin fa-3x fa-fw"></i>SEO 170, Sector 17(C), Chandigarh, India</li>
+												<li><i class="fa fa-phone fa-spin fa-3x fa-fw"></i>(+19) 80911-27000</li>
+												<li><i class="fa fa-envelope fa-spin fa-3x fa-fw"></i></i>my99yard@gmail.com</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+								</div>
+								
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+				<div class="copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-5">
+								Copyright © 2020 my99yard. All Rights Reserved 
+								<p><a href="http://bespoketechnologies.co.in/AMN/my99yard/">My99yard.com</a> is unit of Rudra Group</p>
+							</div>
+							<div class="col-sm-7">
+								<p class="disclaimer_c">All the information displayed is as posted by the User and displayed on the website for informational purposes only. MY99YARD.COM makes no representations and warranties of any kind, whether expressed or implied, for the Services and in relation to the accuracy or quality of any information transmitted or obtained at MY99YARD.COM...<a href="http://bespoketechnologies.co.in/AMN/my99yard/why-my99yard">Read More</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div id="go-to-top" class="go-to-top">
+			<i class="fa fa-angle-up"></i>
+		</div>
+		<script type="text/javascript">
+			$('.intercom').click(function(){
+				$(this).removeClass('active');
+				$('.navPanel').addClass('active');
+				$('.intercomCloseBtn').addClass('active');
+			});
+			$('.intercomCloseBtn').click(function(){
+				$(this).removeClass('active');
+				$('.intercom').addClass('active');
+				$('.navPanel').removeClass('active');
+			});
+
+			$('.navPanel .link3').click(function(){
+				window.open('https://api.whatsapp.com/send?phone=+917018201049', '_blank');
+
+			});	
+			$('.navPanel .link2').click(function(){
+				window.open('mailto:vickyshm@gmail.com', '_blank');
+
+			});	
+			$('.navPanel .link1').click(function(){
+				window.open('tel:+917018201049', '_blank');
+
+			});
+			
+		</script>    <!----table js------->
+		<script src="assets/js/tablejs/dataTables.bootstrap.min.js"></script>		<script src="assets/js/tablejs/jquery-3.3.1.js"></script>		<script src="assets/js/tablejs/jquery.dataTables.min.js"></script>		<!----table js------->
+		<script src="assets/js/modernizr-2.7.1.min.js"></script>
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<script src="assets/js/off-cavnass.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<script src="assets/js/script.js"></script>
+
+		<script src="assets/js/core.min.js"></script>
+		<script src="assets/js/widget.min.js"></script>
+		<script src="assets/js/mouse.min.js"></script>
+		<script src="assets/js/slider.min.js"></script>
+		<script src="assets/js/jquery.ui.touch-punch.js"></script>
+		<script src="assets/js/price-slider.js"></script>
+	</body>
+</html>
+
+<script src="//maps.googleapis.com/maps/api/js?key="></script>
